@@ -52,7 +52,7 @@ function App() {
           </Route>
           <Route exact path="/"> */}
             <div className="container">
-              <Textform heading="converter" style={style} />
+              <Textform heading="converter" showAlert={showalert} style={style} />
             </div>
           {/* </Route>
         </Switch>
